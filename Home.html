@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="Home.css">
+    <title>Feed | LinkedIn</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="Home.html"><i class="bi bi-linkedin linked"
+                        style="color: rgb(10,102,194);"></i></a>
+                <form class="d-flex">
+                    <input class="form-control " type="search" placeholder="Search" aria-label="Search"
+                        style="width: 350px;background-color:rgb(218, 235, 240);">
+                </form>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 m " style="margin-left: 30%;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Home.html">
+                                <div class="tab container-fluid"><i class="bi bi-house-door-fill"></i>
+                                    <span>Home</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="MyNetwork.html">
+                                <div class="tab container-fluid"><i class="bi bi-diagram-2-fill"></i>
+                                    <span>My Network</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Jops.html">
+                                <div class="tab container-fluid"><i class="bi bi-bag-fill"></i>
+                                    <span>Jobs</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Messaging.html">
+                                <div class="tab container-fluid"><i class="bi bi-chat-right-dots-fill"></i>
+                                    <span>Messaging</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Notification.html">
+                                <div class="tab container-fluid"><i class="bi bi-bell-fill"></i>
+                                    <span>Notification</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown" style="margin-top: 1%;">
+                            <a class="nav-link  container-fluid" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="/Images/img.jpg">
+                                <p>Me</p>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown"
+                                style="width: 320px;">
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <div style="display: flex;" class="gap-3"><img src="/Images/img.jpg"
+                                                style="width: 60px; height: 70px;"><span>
+                                                <h4>Khalil Emad</h4>
+                                                <h5>Flutter Developer</h5>
+                                            </span></div>
+                                    </a>
+                                    <div class="d-grid gap-2 view">
+                                        <button class="btn " type="button"><span
+                                                style="font-weight: bold; color: blue;">View Profile</span></button>
+                                    </div>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <h4>Account</h4>
+                                    <a class="dropdown-item" href="#">Setting & Privacy</a>
+                                    <a class="dropdown-item" href="#">Help</a>
+                                    <a class="dropdown-item" href="#">Language</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <h4>Manage</h4>
+                                    <a class="dropdown-item" href="#">Posts & Activity</a>
+                                    <a class="dropdown-item" href="#">Job Posying Account</a>
+                                    <a class="dropdown-item" href="#">Language</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="signIn.html">Sign Out</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown" style="margin-left: 2%;">
+                            <button class="btn btn-link text-muted text-decoration-none" type="button"
+                                data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                                aria-controls="offcanvasRight">
+
+                                <i class="bi bi-safe-fill"></i>
+                                <p>Work</p>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-3 left ">
+                    <div class="card ">
+                        <div class="top card-body">
+                            <a style="text-decoration: none;color: black;" href="#"> <img src="/Images/img.jpg"><br>
+                                <h5>Khalil Emad</h5>
+                            </a>
+                            <h6>Flutter Developer</h6>
+                        </div>
+                        <hr>
+                        <div class="card-body">
+                            <p class="card-text">
+                                <a href="#" style="text-decoration:none; color: black;">
+                                    <h6>Connections</h6>
+                                    <h5>Grow your Network</h5>
+                                </a>
+                            </p>
+                            <hr>
+                            <p class="card-text">
+                                <a href="#" style="text-decoration:none; color: black;">
+                                    <h6>Access exclusive tools & insights</h6>
+                                    <div d-flex>
+                                        <i class="bi bi-bookmark-fill" style="color: rgb(185, 159, 13);"></i>
+                                        <span style="font-weight: bold; font-size: 18px;">Try Premium for free</span>
+                                    </div>
+                                </a>
+                            </p>
+                            <hr>
+                            <p class="card-text">
+                                <a href="#" style="text-decoration:none; color: black;">
+                                    <div d-flex>
+                                        <i class="bi bi-bookmark-fill" style="color: gray;"></i>
+                                        <span style="font-weight: bold; font-size: 18px;">My items</span>
+                                    </div>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card" style="position:sticky; top: 80px;">
+                        <div class="card-body">
+                            <p class="card-text">
+                            <h6>Recent</h6>
+                            <p><i class="bi bi-hash" style="font-size: 20px;"></i><a href="#"
+                                    style="text-decoration:none; color: black;">computing</a></p>
+                            <p><i class="bi bi-hash" style="font-size: 20px;"></i><a href="#"
+                                    style="text-decoration:none; color: black;">careers</a></p>
+                            <p><i class="bi bi-hash" style="font-size: 20px;"></i><a href="#"
+                                    style="text-decoration:none; color: black;">data</a></p>
+                            <p><i class="bi bi-hash" style="font-size: 20px;"></i><a href="#"
+                                    style="text-decoration:none; color: black;">design</a></p>
+                            <p><i class="bi bi-hash" style="font-size: 20px;"></i><a href="#"
+                                    style="text-decoration:none; color: black;">future</a></p>
+                            </p>
+                            <p class="card-text">
+                                <a href="Groups.html" style="text-decoration: none;">
+                                    <p style="font-weight: bold;">Groups</p>
+                                </a>
+                                <a href="Events.html" style="text-decoration: none;">
+                                    <p style="font-weight: bold;">Events</p>
+                                </a>
+                                <a href="#" style="text-decoration: none;">
+                                    <p style="font-weight: bold;">Followed Hashtags</p>
+                                </a>
+                            </p>
+                            <p class="card-text">
+                            <p><i class="bi bi-hash" style="font-size: 20px;"></i><a href="#"
+                                    style="text-decoration:none; color: black;">computing</a></p>
+                            <p><i class="bi bi-hash" style="font-size: 20px;"></i><a href="#"
+                                    style="text-decoration:none; color: black;">careers</a></p>
+                            <p><i class="bi bi-hash" style="font-size: 20px;"></i><a href="#"
+                                    style="text-decoration:none; color: black;">data</a></p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5 middle">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="post gap-3">
+                                <a href="#"> <img src="/Images/img.jpg"></a>
+                                <input class="form-control me-2" type="text" placeholder="Start a post"
+                                    aria-label="post" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                    style="background-color: white; width:80%; border-radius: 45px;">
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Create a post</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="d-flex gap-3">
+                                                    <div>
+                                                        <img src="/Images/img.jpg">
+                                                    </div>
+                                                    <div>
+                                                        <h5>Khalil Emad</h5>
+                                                        <select class="form-select" aria-label="Default select example"
+                                                            style="border:1px solid grey; border-radius: 30px;">
+                                                            <option selected>Anyone</option>
+                                                            <option value="1">Anyone + Twitter</option>
+                                                            <option value="2">Connections only</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div class="mb-3">
+                                                    <textarea class="form-control" id="exampleFormControlTextarea1"
+                                                        rows="4"
+                                                        placeholder=" What do you Want to Talk about "></textarea>
+                                                </div>
+                                                <a href="#" style="text-decoration: none;">
+                                                    <p style="font-weight: bold;font-size: 1.3em;">Add hashtag</p>
+                                                    <div class="float-start" style="margin-left: 3%;">
+                                                        <i class="bi bi-image sicon" style="margin-right: 20px;"></i>
+                                                        <i class="bi bi-file-play-fill sicon"
+                                                            style="margin-right: 20px;"></i>
+                                                        <i class="bi bi-file-earmark-text-fill sicon"
+                                                            style="margin-right: 20px;"></i>
+                                                        <i class="bi bi-briefcase-fill sicon"
+                                                            style="margin-right: 20px;"></i>
+                                                        <i class="bi bi-gear-fill sicon"
+                                                            style="margin-right: 20px;"></i>
+                                                        <i class="fas fa-poll sicon" style="margin-right: 20px;"></i>
+                                                        <i class="bi bi-three-dots sicon"></i>
+                                                    </div>
+                                                    <div class="float-end" style="width: 40%;">
+                                                        <button type="button" class="btn btn-primary rounded-pill"
+                                                            disabled style="width: 70%;">Post</button>
+                                                    </div>
+                                                    <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between pt-3" style="width: 100%;">
+                                <button type="button" class="btn btn-outline-light text-dark">
+                                    <div class="post gap-3"> <i class="bi bi-image"
+                                            style="font-size: 1.5em;color:rgb(107, 107, 241);"></i><span
+                                            style="font-size: 17px;padding-top: 9%;">Photo</span></div>
+                                </button>
+                                <button type="button" class="btn btn-outline-light text-dark">
+                                    <div class="post gap-3"><i class="bi bi-play-btn-fill"
+                                            style="font-size: 1.5em;color: rgb(81, 138, 81);"></i><span
+                                            style="font-size: 17px;padding-top: 9%;">Video</span></div>
+                                </button>
+                                <button type="button" class="btn btn-outline-light text-dark">
+                                    <div class="post gap-3"><i class="bi bi-calendar-date"
+                                            style="font-size: 1.5em;color: gold;"></i><span
+                                            style="font-size: 1em;padding-top: 9%;">Event</span></div>
+                                </button>
+                                <button type="button" class="btn btn-outline-light text-dark">
+                                    <div class="post gap-3"><i class="bi bi-blockquote-left "
+                                            style="font-size: 2em;color: rgb(243, 149, 165);"></i><span
+                                            style="font-size: 1em;padding-top: 9%;">Write article</span></div>
+                                </button>
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <div class="d-flex gap-3">
+                                    <div>
+                                        <img src="/Images/img.jpg">
+                                    </div>
+                                    <div>
+                                        <h5 style="color: black;">Ahmed Ebrahim</h5>
+                                        <h6 style="color: gray;">FullStack Developer</h6>
+                                        <h6 style="color: gray;">1w</h6>
+
+                                    </div>
+                                </div>
+                            </h5>
+                            <p class="card-text" style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                                possimus pariatur assumenda aspernatur reprehenderit, fugiat minus odio esse distinctio?
+                                Vel nulla tempore voluptatibus omnis velit quo eveniet vero quae expedita!</p>
+                        </div>
+                        <img src="/Images/3.jpg" class="card-img-bottom"
+                            style="width: 100%;height: 350px;border-radius: 0%;">
+                        <p class="card-text p-3">
+                            <a href=""><i class="far fa-thumbs-up" style="color: blue;"></i></a>
+                            <a href=""><i class="bi bi-heart" style="color: red;"></i></a>
+                            <a href=""><i class="far fa-lightbulb" style="color: yellow;"></i></a><a href="#">950</a><i
+                                class="bi bi-dot"></i><a href="#">150 comment</a>
+                        </p>
+                        <div class="d-flex justify-content-between" style="width: 100%;">
+                            <button type="button" class="btn btn-outline-light text-dark">
+                                <div class="post gap-3"> <i class="far fa-thumbs-up"
+                                        style="font-size: 1.5em;color:gray;"></i><span
+                                        style="font-size: 17px;">Like</span></div>
+                            </button>
+                            <button type="button" class="btn btn-outline-light text-dark">
+                                <div class="post gap-3"><i class="far fa-comment"
+                                        style="font-size: 1.5em;color: gray;"></i><span
+                                        style="font-size: 17px;">Comment</span></div>
+                            </button>
+                            <button type="button" class="btn btn-outline-light text-dark">
+                                <div class="post gap-3"><i class="fas fa-share"
+                                        style="font-size: 1.5em;color: gray;"></i><span
+                                        style="font-size: 1em;">Share</span></div>
+                            </button>
+                            <button type="button" class="btn btn-outline-light text-dark">
+                                <div class="post gap-3"><i class="fas fa-paper-plane"
+                                        style="font-size: 2em;color: gray;"></i><span
+                                        style="font-size: 1em;padding-top: 5%;">Send</span></div>
+                            </button>
+                        </div>
+                        <div class="comment d-flex">
+                            <div style="width: 15%;">
+                                <img src="/Images/img.jpg" class=" mx-auto d-block">
+                            </div>
+                            <input class="form-control me-2" type="text" placeholder="Add a Comment..."
+                                aria-label="post" style="background-color: white; width:90%; border-radius: 45px;">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <div class="d-flex gap-3">
+                                    <div>
+                                        <img src="/Images/img.jpg">
+                                    </div>
+                                    <div>
+                                        <h5 style="color: black;">Ahmed Ebrahim</h5>
+                                        <h6 style="color: gray;">FullStack Developer</h6>
+                                        <h6 style="color: gray;">1w</h6>
+
+                                    </div>
+                                </div>
+                            </h5>
+                            <p class="card-text" style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                                possimus pariatur assumenda aspernatur reprehenderit, fugiat minus odio esse distinctio?
+                                Vel nulla tempore voluptatibus omnis velit quo eveniet vero quae expedita!</p>
+                        </div>
+                        <img src="/Images/3.jpg" class="card-img-bottom"
+                            style="width: 100%;height: 350px;border-radius: 0%;">
+                        <p class="card-text p-3">
+                            <a href=""><i class="far fa-thumbs-up" style="color: blue;"></i></a>
+                            <a href=""><i class="bi bi-heart" style="color: red;"></i></a>
+                            <a href=""><i class="far fa-lightbulb" style="color: yellow;"></i></a><a href="#">950</a><i
+                                class="bi bi-dot"></i><a href="#">150 comment</a>
+                        </p>
+                        <div class="d-flex justify-content-between" style="width: 100%;">
+                            <button type="button" class="btn btn-outline-light text-dark">
+                                <div class="post gap-3"> <i class="far fa-thumbs-up"
+                                        style="font-size: 1.5em;color:gray;"></i><span
+                                        style="font-size: 17px;">Like</span></div>
+                            </button>
+                            <button type="button" class="btn btn-outline-light text-dark">
+                                <div class="post gap-3"><i class="far fa-comment"
+                                        style="font-size: 1.5em;color: gray;"></i><span
+                                        style="font-size: 17px;">Comment</span></div>
+                            </button>
+                            <button type="button" class="btn btn-outline-light text-dark">
+                                <div class="post gap-3"><i class="fas fa-share"
+                                        style="font-size: 1.5em;color: gray;"></i><span
+                                        style="font-size: 1em;">Share</span></div>
+                            </button>
+                            <button type="button" class="btn btn-outline-light text-dark">
+                                <div class="post gap-3"><i class="fas fa-paper-plane"
+                                        style="font-size: 2em;color: gray;"></i><span
+                                        style="font-size: 1em;padding-top: 5%;">Send</span></div>
+                            </button>
+                        </div>
+                        <div class="comment d-flex">
+                            <div style="width: 15%;">
+                                <img src="/Images/img.jpg" class=" mx-auto d-block">
+                            </div>
+                            <input class="form-control me-2" type="text" placeholder="Add a Comment..."
+                                aria-label="post" style="background-color: white; width:90%; border-radius: 45px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 right">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5>Add to your feed</h5>
+                            <p class="card-text">
+                            <div class="d-flex gap-3">
+                                <div>
+                                    <img src="/Images/img.jpg">
+                                </div>
+                                <div>
+                                    <h5>WazaefAlyoum.com - وظائف اليوم</h5>
+                                    <h6 style="color: gray;">Company • Staffing and Recruiting</h6>
+                                    <button type="button" class="btn btn-outline-secondary rounded-pill btn-lg">
+                                        <span style="font-size: 20px;">+</span> <span>Follow</span></button>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-3">
+                                <div>
+                                    <img src="/Images/img.jpg">
+                                </div>
+                                <div>
+                                    <h5>Khalil Emad</h5>
+                                    <h6 style="color: gray;">Flutter Developer</h6>
+                                    <button type="button" class="btn btn-outline-secondary rounded-pill btn-lg">
+                                        <span style="font-size: 20px;">+</span> <span>Follow</span></button>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-3">
+                                <div>
+                                    <img src="/Images/img.jpg">
+                                </div>
+                                <div>
+                                    <h5>Onay Beshoy</h5>
+                                    <h6 style="color: gray;">HR Consulant</h6>
+                                    <button type="button" class="btn btn-outline-secondary rounded-pill btn-lg">
+                                        <span style="font-size: 20px;">+</span> <span>Follow</span></button>
+                                </div>
+                            </div>
+                            <p><a href="#" style="text-decoration:none; color: gray; ">View all
+                                    recommendations<i class="bi bi-arrow-right " style="font-size: 20px; "></i> </a></p>
+                            </p>
+                        </div>
+                    </div>
+                    <br>
+                    <div style="position: sticky; top: 80px;">
+                        <img src="/Images/4.jpg" class="card-img"
+                            style="width: 100%; height: 310px;border-radius: 0px;">
+                            <div class="row row5 text-center  align-items-end">
+                                <small class="col  mb-3 pt-3 ">
+                                    <span class="badge bg-dark">LinkedIn</span>
+                                    <span class="footer-copyright">© 2021</span>
+                                    <a href="" class="ps-3">About</a>
+                                    <a href="" class="ps-3">Accessibilty</a>
+                                    <a href="" class="ps-3">User Agreement</a>
+                                    <a href="" class="ps-3">Privcy Policy</a>
+                                    <a href="" class="ps-3">Cookie Policy</a>
+                                    <a href="" class="ps-3">Copyright Polict</a>
+                                    <a href="" class="ps-3">Brand Policy</a>
+                                    <a href="" class="ps-3">Guest Controls</a>
+                                    <a href="" class="ps-3">Community Guidelines</a>
+        
+                                    <div class="btn-group dropup">
+                                        <button type="button"
+                                            class="btn btn-link text-muted text-decoration-none ps-3 dropdown-toggle"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Language
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <!-- <li><span class="dropdown-item-text">Dropdown item text</span></li> -->
+                                            <li><a class="dropdown-item" href="#">Arabic</a></li>
+                                            <li><a class="dropdown-item" href="#">English</a></li>
+                                            <li><a class="dropdown-item" href="#">French</a></li>
+                                        </ul>
+                                    </div>
+                                </small>
+                            </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="card">
+                <div class="card-header bg-transparent">
+                    <h4>Visit More Linkedin Products</h4>
+                </div>
+                <div class="card-body">
+                    <ul class="nav nav-pills nav-fill">
+                        <li class="nav-item">
+                            <i class="bi bi-youtube"></i>
+                            <p>Learning</p>
+                        </li>
+                        <li class="nav-item">
+                            <i class="bi bi-textarea"></i>
+                            <p>Insights</p>
+                        </li>
+                        <li class="nav-item">
+                            <i class="bi bi-briefcase"></i>
+                            <p>Post a job</p>
+                        </li>
+                        <li class="nav-item">
+                            <i class="bi bi-geo"></i>
+                            <p>Advertise</p>
+                        </li>
+                    </ul>
+                    <ul class="nav nav-pills nav-fill">
+                        <li class="nav-item">
+                            <i class="bi bi-search"></i>
+                            <p>Find Leads</p>
+                        </li>
+                        <li class="nav-item">
+                            <i class="bi bi-people"></i>
+                            <p>Groups</p>
+                        </li>
+                        <li class="nav-item">
+                            <i class="bi bi-info-lg"></i>
+                            <p>Services</p>
+                        </li>
+                        <li class="nav-item">
+                            <i class="bi bi-cash-coin"></i>
+                            <p>Salary</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <div class="card">
+                <div class="card-header bg-transparent">
+                    <h4>LinkedIn Business Services</h4>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Talent Solutions</h5>
+                    <p class="card-text"><small class="text-muted">Find, attract and recruit talent</small></p>
+                    <h5>Sales Solutions</h5>
+                    <p class="card-text"><small class="text-muted">Find, attract and recruit talent</small></p>
+                    <h5>Post a job for free</h5>
+                    <p class="card-text"><small class="text-muted">Find, attract and recruit talent</small></p>
+                    <h5>Marketing Solutions</h5>
+                    <p class="card-text"><small class="text-muted">Find, attract and recruit talent</small></p>
+                    <h5>Learning Solutions</h5>
+                    <p class="card-text"><small class="text-muted">Find, attract and recruit talent</small></p>
+
+                </div>
+                <div class="card-footer bg-transparent">
+                    <h4>Create a Company Page <i class="bi bi-plus"></i></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Messaging</title>
+    <link rel="stylesheet" href="MassageStyle.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="Home.html"><i class="bi bi-linkedin linked"
+                    style="color: rgb(10, 18, 26);"></i></a>
+            <form class="d-flex">
+                <input class="form-control " type="search" placeholder="Search" aria-label="Search"
+                    style="width: 350px;background-color:rgb(218, 235, 240);">
+            </form>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 m " style="margin-left: 30%;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Home.html">
+                            <div class="tab container-fluid"><i class="bi bi-house-door-fill"></i>
+                                <span>Home</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="MyNetwork.html">
+                            <div class="tab container-fluid"><i class="bi bi-diagram-2-fill"></i>
+                                <span>My Network</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Jops.html">
+                            <div class="tab container-fluid"><i class="bi bi-bag-fill"></i>
+                                <span>Jobs</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Messaging.html">
+                            <div class="tab container-fluid"><i class="bi bi-chat-right-dots-fill"></i>
+                                <span>Messaging</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Notification.html">
+                            <div class="tab container-fluid"><i class="bi bi-bell-fill"></i>
+                                <span>Notification</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-top: 1%;">
+                        <a class="nav-link  container-fluid" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="/Images/img.jpg">
+                            <p>Me</p>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown"
+                            style="width: 320px;">
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <div style="display: flex;" class="gap-3"><img src="/Images/img.jpg"
+                                            style="width: 60px; height: 70px;"><span>
+                                            <h4>Khalil Emad</h4>
+                                            <h5>Flutter Developer</h5>
+                                        </span></div>
+                                </a>
+                                <div class="d-grid gap-2 view">
+                                    <button class="btn " type="button"><span
+                                            style="font-weight: bold; color: blue;">View Profile</span></button>
+                                </div>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <h4>Account</h4>
+                                <a class="dropdown-item" href="#">Setting & Privacy</a>
+                                <a class="dropdown-item" href="#">Help</a>
+                                <a class="dropdown-item" href="#">Language</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <h4>Manage</h4>
+                                <a class="dropdown-item" href="#">Posts & Activity</a>
+                                <a class="dropdown-item" href="#">Job Posying Account</a>
+                                <a class="dropdown-item" href="#">Language</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="signIn.html">Sign Out</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown" style="margin-left: 2%;">
+                        <button class="btn btn-link text-muted text-decoration-none" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+
+                            <i class="bi bi-safe-fill"></i>
+                            <p>Work</p>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="containerr">
+        <div class="row">
+            <div class="col-lg-3 col-sm-4 col-xm-12">
+                <div class="row row_Messaging">
+                    <div class="d-flex justify-content-between msg ">
+                        <div>Messaging</div>
+                        <div>
+                            <button class="btn dropp btn-secondary dropdown-toggle" type="button"
+                                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Manage conversations</a></li>
+                                <li><a class="dropdown-item" href="#">Manage request inbox</a></li>
+                                <li><a class="dropdown-item" href="#">Set Away message</a></li>
+                            </ul>
+                            <i class="fas fa-edit ms-4"></i>
+                        </div>
+                    </div>
+                    <div class="search">
+                        <div class="input-group mt-3 mb-3 input">
+                            <i class="fas fa-search"></i>
+                            <input type="text" class="form-control input2" placeholder="Search Messages"
+                                aria-label="Dollar amount (with dot and two decimal places)">
+                            <button class="btn drop2 btn-secondary dropdown-toggle" type="button"
+                                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-bars"></i>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">All messages</a></li>
+                                <li><a class="dropdown-item" href="#">Archived</a></li>
+                                <li><a class="dropdown-item" href="#">My connections</a></li>
+                                <li><a class="dropdown-item" href="#">Unread</a></li>
+                                <li><a class="dropdown-item" href="#">InMail</a></li>
+                                <li><a class="dropdown-item" href="#">Spam</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="for">
+                        <i class="fas fa-exclamation-circle d-inline-block"></i>
+                        <span class="d-inline">
+                            For consistency, your read receipts and typing indicators setting now applies to all
+                            messages, including InMails and Message Requests.
+                        </span>
+                        <div class="links">
+                            <a href="#" class="view">View Settings</a>
+                            <a class="ms-5 got" href="#">Got it</a>
+                        </div>
+                    </div>
+                    <div class="no">
+                        No messages
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-sm-8 col-xm-12">
+                <div class="row row_New">
+                    <div class="msg1 ">
+                        <div> New message</div>
+                    </div>
+                    <div>
+                        <input class="type" placeholder="Type a name or multiple names">
+                    </div>
+                    <div class="ms">
+
+                    </div>
+                    <div>
+                        <input class="write" placeholder="Write a message...">
+                    </div>
+                    <div class="d-flex justify-content-between linkk">
+                        <div Class="d-flex justify-content-between">
+                            <label for="first"><i class="far fa-image"></i></label>
+                            <input type="file" id="first" style="display: none;visibility:hidden;"
+                                onchange="getImage(this.value);">
+
+                            <label for="second" class="ms-5 mt-1"><i class="fas fa-paperclip "></i></label>
+                            <input type="file" id="second" style="display: none;visibility:hidden;"
+                                onchange="getImage(this.value);">
+                            <a href="#" class="ms-5"><span>Gif</span></a>
+                            <a href="#" class="ms-5"><i class="far fa-smile"></i></a>
+                        </div>
+                        <div Class="d-flex justify-content-between">
+                            <button class="me-3">sent</button>
+
+
+
+                            <i class="fas fa-ellipsis-h mt-2"></i>
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-3 col-xm-3">
+                <div class="row row_man">
+                    <img src="/Images/4.jpg">
+                </div>
+
+                <div class="row row5 text-center  align-items-end">
+                    <small class="col  mb-3 pt-3 ">
+                        <span class="badge bg-dark">LinkedIn</span>
+                        <span class="footer-copyright">© 2021</span>
+                        <a href="" class="ps-3">About</a>
+                        <a href="" class="ps-3">Accessibilty</a>
+                        <a href="" class="ps-3">User Agreement</a>
+                        <a href="" class="ps-3">Privcy Policy</a>
+                        <a href="" class="ps-3">Cookie Policy</a>
+                        <a href="" class="ps-3">Copyright Polict</a>
+                        <a href="" class="ps-3">Brand Policy</a>
+                        <a href="" class="ps-3">Guest Controls</a>
+                        <a href="" class="ps-3">Community Guidelines</a>
+
+                        <div class="btn-group dropup">
+                            <button type="button"
+                                class="btn btn-link text-muted text-decoration-none ps-3 dropdown-toggle"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Language
+                            </button>
+                            <ul class="dropdown-menu">
+                                <!-- <li><span class="dropdown-item-text">Dropdown item text</span></li> -->
+                                <li><a class="dropdown-item" href="#">Arabic</a></li>
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">French</a></li>
+                            </ul>
+                        </div>
+                    </small>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="card">
+                <div class="card-header bg-transparent">
+                    <h4>Visit More Linkedin Products</h4>
+                </div>
+                <div class="card-body">
+                    <ul class="nav nav-pills nav-fill">
+                        <li class="nav-item">
+                            <i class="bi bi-youtube"></i>
+                            <p>Learning</p>
+                        </li>
+                        <li class="nav-item">
+                            <i class="bi bi-textarea"></i>
+                            <p>Insights</p>
+                        </li>
+                        <li class="nav-item">
+                            <i class="bi bi-briefcase"></i>
+                            <p>Post a job</p>
+                        </li>
+                        <li class="nav-item">
+                            <i class="bi bi-geo"></i>
+                            <p>Advertise</p>
+                        </li>
+                    </ul>
+                    <ul class="nav nav-pills nav-fill">
+                        <li class="nav-item">
+                            <i class="bi bi-search"></i>
+                            <p>Find Leads</p>
+                        </li>
+                        <li class="nav-item">
+                            <i class="bi bi-people"></i>
+                            <p>Groups</p>
+                        </li>
+                        <li class="nav-item">
+                            <i class="bi bi-info-lg"></i>
+                            <p>Services</p>
+                        </li>
+                        <li class="nav-item">
+                            <i class="bi bi-cash-coin"></i>
+                            <p>Salary</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <div class="card">
+                <div class="card-header bg-transparent">
+                    <h4>LinkedIn Business Services</h4>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Talent Solutions</h5>
+                    <p class="card-text"><small class="text-muted">Find, attract and recruit talent</small></p>
+                    <h5>Sales Solutions</h5>
+                    <p class="card-text"><small class="text-muted">Find, attract and recruit talent</small></p>
+                    <h5>Post a job for free</h5>
+                    <p class="card-text"><small class="text-muted">Find, attract and recruit talent</small></p>
+                    <h5>Marketing Solutions</h5>
+                    <p class="card-text"><small class="text-muted">Find, attract and recruit talent</small></p>
+                    <h5>Learning Solutions</h5>
+                    <p class="card-text"><small class="text-muted">Find, attract and recruit talent</small></p>
+
+                </div>
+                <div class="card-footer bg-transparent">
+                    <h4>Create a Company Page <i class="bi bi-plus"></i></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

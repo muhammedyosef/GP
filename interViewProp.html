@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="jopsSASS.css" />
+    <link rel="stylesheet" href="Home.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InterViewProp</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="Home.html"><i class="bi bi-linkedin linked"
+                    style="color: rgb(10,102,194);"></i></a>
+            <form class="d-flex">
+                <input class="form-control " type="search" placeholder="Search" aria-label="Search"
+                    style="width: 350px;background-color:rgb(218, 235, 240);">
+            </form>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 m " style="margin-left: 30%;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Home.html">
+                            <div class="tab container-fluid"><i class="bi bi-house-door-fill"></i>
+                                <span>Home</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="MyNetwork.html">
+                            <div class="tab container-fluid"><i class="bi bi-diagram-2-fill"></i>
+                                <span>My Network</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Jops.html">
+                            <div class="tab container-fluid"><i class="bi bi-bag-fill"></i>
+                                <span>Jobs</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Messaging.html">
+                            <div class="tab container-fluid"><i class="bi bi-chat-right-dots-fill"></i>
+                                <span>Messaging</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Notification.html">
+                            <div class="tab container-fluid"><i class="bi bi-bell-fill"></i>
+                                <span>Notification</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-top: 1%;">
+                        <a class="nav-link  container-fluid" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="/Images/img.jpg">
+                            <p>Me</p>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown"
+                            style="width: 320px;">
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <div style="display: flex;" class="gap-3"><img src="/Images/img.jpg"
+                                            style="width: 60px; height: 70px;"><span>
+                                            <h4>Khalil Emad</h4>
+                                            <h5>Flutter Developer</h5>
+                                        </span></div>
+                                </a>
+                                <div class="d-grid gap-2 view">
+                                    <button class="btn " type="button"><span
+                                            style="font-weight: bold; color: blue;">View
+                                            Profile</span></button>
+                                </div>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <h4>Account</h4>
+                                <a class="dropdown-item" href="#">Setting & Privacy</a>
+                                <a class="dropdown-item" href="#">Help</a>
+                                <a class="dropdown-item" href="#">Language</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <h4>Manage</h4>
+                                <a class="dropdown-item" href="#">Posts & Activity</a>
+                                <a class="dropdown-item" href="#">Job Posying Account</a>
+                                <a class="dropdown-item" href="#">Language</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="signIn.html">Sign Out</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown" style="margin-left: 2%;">
+                        <button class="btn btn-link text-muted text-decoration-none" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+
+                            <i class="bi bi-safe-fill"></i>
+                            <p>Work</p>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-4" style="width: 20rem">
+                <div class="card shadow">
+                    <h6 class="card-header">
+                        Common<br />
+                        Questions <br />
+                        <small id="small26"> 26 questions</small>
+                        <button id="btnheadr" type="button" class="btn btn-primary">
+                            Primary
+                        </button>
+                    </h6>
+                    <div class="card-body">
+                        <h6>
+                            <a id="ainterview" href="">
+                                1 &nbsp;Tell Me About yourself?
+                                <i id="checkright" class="bi bi-check-lg"></i>
+                            </a>
+                            <hr />
+                            <a id="ainterview" href="">
+                                2 &nbsp;What is your greatest strenght?
+                                <i id="checkright" class="bi bi-check-lg"></i>
+                            </a>
+                            <hr />
+                            <a id="ainterview" href="">
+                                3 &nbsp;What is your greatest weaknes?
+                                <i id="checkright" class="bi bi-check-lg"></i>
+                            </a>
+                            <hr />
+                            <a id="ainterview" href="">
+                                4 &nbsp;why we shoud hair you?
+                                <i id="checkright" class="bi bi-check-lg"></i>
+                            </a>
+                            <hr />
+                            <a id="ainterview" href="">
+                                5 &nbsp;Why do you work here?
+                                <i id="checkright" class="bi bi-check-lg"></i>
+                            </a>
+                            <hr />
+                            <a id="ainterview" href="">
+                                6 &nbsp;Tell me about time you <br />
+                                showed leadrship?
+                                <i id="checkright" class="bi bi-check-lg"></i>
+                            </a>
+                            <hr />
+                            <a id="ainterview" href="">
+                                7 &nbsp;Tell me about time you <br />
+                                were succesful on a time?
+                                <i id="checkright" class="bi bi-check-lg"></i>
+                            </a>
+                            <hr />
+                            <a id="ainterview" href="">
+                                8 &nbsp;what would youe co- <br />
+                                workers say about you ?
+                                <i id="checkright" class="bi bi-check-lg"></i>
+                            </a>
+                            <hr />
+                            <a id="ainterview" href="">
+                                9 &nbsp;what do you wont to leave <br />
+                                your courrent role?
+                                <i id="checkright" class="bi bi-check-lg"></i>
+                            </a>
+                            <hr />
+                            <a id="ainterview" href="">
+                                10 &nbsp;Discribe your most <br />
+                                Challinge project?
+                                <i id="checkright" class="bi bi-check-lg"></i>
+                            </a>
+                            <hr />
+                            <a id="ainterview" href="">
+                                11 &nbsp;Tell me about <br />someting you have <br />
+                                accomplished that...
+
+                                <i id="checkright" class="bi bi-check-lg"></i>
+                            </a>
+                            <hr />
+                            <a id="ainterview" href="">
+                                12 &nbsp; Can you explan your emplyument gap?
+                                <i id="checkright" class="bi bi-check-lg"></i>
+                            </a>
+                            <hr />
+                            <a id="ainterview" href="">
+                                13 &nbsp;What is your Salary expectaions?
+                                <i id="checkright" class="bi bi-check-lg"></i>
+                            </a>
+                            <hr />
+                            <a id="ainterview" href="">
+                                14 &nbsp;What do you like to do <br />
+                                outside offies
+                                <i id="checkright" class="bi bi-check-lg"></i>
+                            </a>
+                            <hr />
+
+                            <a id="ainterview" href="">
+                                15 &nbsp;where do you see yourself in 5 years?
+                                <i id="checkright" class="bi bi-check-lg"></i>
+                            </a>
+                            <hr />
+                            <a id="ainterview" href="">
+                                16&nbsp;Describe your relationship style?
+                                <i id="checkright" class="bi bi-check-lg"></i>
+                            </a>
+                            <hr />
+                            <a id="ainterview" href="">
+                                17 &nbsp;Tell me about time you <br />
+                                work it with difficult.....
+                                <i id="checkright" class="bi bi-check-lg"></i>
+                            </a>
+                            <hr />
+                            <a id="ainterview" href="">
+                                18 &nbsp;Tell me about atime you <br />
+                                disagree with some one?
+                                <i id="checkright" class="bi bi-check-lg"></i>
+                            </a>
+                        </h6>
+                        <hr />
+                        <a id="ainterview" href="">
+                            19 &nbsp;Tell me about atime you <br />
+                            disagree with some one?
+                            <i id="checkright" class="bi bi-check-lg"></i>
+                        </a>
+                        </h6>
+                        <hr />
+                        <a id="ainterview" href="">
+                            20&nbsp;Tell me about atime you <br />
+                            disagree with some one?
+                            <i id="checkright" class="bi bi-check-lg"></i>
+                        </a>
+                        </h6>
+                        <hr />
+                        <a id="ainterview" href="">
+                            21 &nbsp;Tell me about atime you <br />
+                            disagree with some one?
+                            <i id="checkright" class="bi bi-check-lg"></i>
+                        </a>
+                        </h6>
+                        <hr />
+                        <a id="ainterview" href="">
+                            22 &nbsp;Tell me about atime you <br />
+                            disagree with some one?
+                            <i id="checkright" class="bi bi-check-lg"></i>
+                        </a>
+                        </h6>
+                        <hr />
+                        <a id="ainterview" href="">
+                            23
+                            &nbsp;Tell me about atime you <br />
+                            disagree with some one?
+                            <i id="checkright" class="bi bi-check-lg"></i>
+                        </a>
+                        </h6>
+                        <hr />
+                        <a id="ainterview" href="">
+                            24 &nbsp;Tell me about atime you <br />
+                            disagree with some one?
+                            <i id="checkright" class="bi bi-check-lg"></i>
+                        </a>
+                        </h6>
+                        <hr />
+                        <a id="ainterview" href="">
+                            25 &nbsp;Tell me about atime you <br />
+                            disagree with some one?
+                            <i id="checkright" class="bi bi-check-lg"></i>
+                        </a>
+                        </h6>
+                        <hr />
+                        <a id="ainterview" href="">
+                            26 &nbsp;Tell me about atime you <br />
+                            disagree with some one?
+                            <i id="checkright" class="bi bi-check-lg"></i>
+                        </a>
+                        </h6>
+                        <hr />
+                        <a id="ainterview" href="">
+                            27 &nbsp;Tell me about atime you <br />
+                            disagree with some one?
+                            <i id="checkright" class="bi bi-check-lg"></i>
+                        </a>
+                        </h6>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-8" style="width: 50rem">
+                <div class="card shadow">
+                    <h5 id="cardup" class="card-header">
+                        Describe your most challenging project.
+                        <br />
+                        <br />
+                        <br />
+                        <button id="btn583" type="button" class="btn btn-primary active" data-bs-toggle="button"
+                            autocomplete="off" aria-pressed="true">
+                            parctice and get feedback</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 583,221 people viewed
+                        this
+                        question
+                    </h5>
+                    <div class="card-body">
+                        <p class="card-text">
+                            Overview <br />
+                            <br />
+                            Employers want to get a sense of what ‘challenging’ means to
+                            you. They also want to know how you handled the situation in a
+                            calm way. They’re looking for a storyline to prove that you can
+                            turn a bad story into a good story.
+                        </p>
+                    </div>
+                </div>
+                <br />
+                <div class="card shadow">
+                    <h5 id="prime" class="card-header">
+                        Unlock sample answers with expert feedback using LinkedIn
+                        <br />Premium
+                        <br />
+                        <button id="btnprime" type="button" class="btn btn-primary active" data-bs-toggle="button"
+                            autocomplete="off" aria-pressed="true">
+                            &nbsp; &nbsp;&nbsp;&nbsp; Try Free for &nbsp;1&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;<br />&nbsp;&nbsp; Month
+                        </button>
+                    </h5>
+
+                    <div class="card-body">
+                        <div class="card">
+                            <div class="card-body">
+                                <span>
+                                    <h5>Simpel answer&nbsp; 1</h5>
+                                    <small>234,433 View <br />
+
+                                        in my current role, i was in cahnge of loading a mojr
+                                        company foe a new
+                                        <br />
+                                        prodect lanching notional . the Project wae Challange both
+                                        becouse of how large it
+                                    </small>
+                                    <button id="btnUnlock" type="button" class="btn btn-outline-secondary">
+                                        UnLock
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                        <br />
+
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-body">
+                                    <span>
+                                        <h5>Simpel answer&nbsp; 2</h5>
+                                        <small>234,433 View <br />
+                                            <h6>By Hardware Enginner Porfessional</h6>
+                                            in my current role, i was in cahnge of loading a mojr
+                                            company foe a new
+                                            <br />
+                                            prodect lanching notional . the Project wae Challange
+                                            both becouse of how large it
+                                        </small>
+                                        <button id="btnUnlock" type="button" class="btn btn-outline-secondary">
+                                            UnLock
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-body">
+                                    <span>
+                                        <h5>Simpel answer&nbsp; 3</h5>
+                                        <small>234,433 View <br />
+                                            <h6>By Program Manager Porfessional</h6>
+
+                                            in my current role, i was in cahnge of loading a mojr
+                                            company foe a new
+                                            <br />
+                                            prodect lanching notional . the Project wae Challange
+                                            both becouse of how large it
+                                        </small>
+                                        <button id="btnUnlock" type="button" class="btn btn-outline-secondary">
+                                            UnLock
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-body">
+                                    <span>
+                                        <h5>Simpel answer&nbsp; 4</h5>
+                                        <small>234,433 View <br />
+                                            <h6>By Data Engnnering Analysis Porfessional</h6>
+
+                                            in my current role, i was in cahnge of loading a mojr
+                                            company foe a new
+                                            <br />
+                                            prodect lanching notional . the Project wae Challange
+                                            both becouse of how large it
+                                        </small>
+                                        <button id="btnUnlock" type="button" class="btn btn-outline-secondary">
+                                            UnLock
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h6>Ancwer framwork</h6>
+                        <hr />
+                        <div class="card mb-3" style="max-width: 540px">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="videoperson.png" class="img-fluid rounded-start" />
+                                </div>
+                                <div class="col-md-8">
+                                    <div id="cardbody1" class="card-body">
+                                        <h6 class="card-title">
+                                            How to approach past experience
+                                            questions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        </h6>
+                                        By Linda Raynier CPA, CA, Career Strategist
+                                        <button id="btnview" type="button" class="btn btn-outline-secondary">
+                                            View
+                                        </button>
+
+                                        <p class="card-text">
+                                            <small class="text-muted">2 mins·127,114 views</small>
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>
+                            <hr>
+                        <p>Respond to this kind of question with a compelling story that
+                            uses the "SAR" framework: <br>
+                            situation, action, and results.
+                            <br>
+                            <br>
+                        <h6>Describe the situation.</h6>
+                        Talk about the initial events that occurred. What were the problems that you were
+                        experiencing? What needed to be solved and what resources did you have--or not have? This</p>
+                        <a id="btncollabs" class="btn btn-outline-primary" data-bs-toggle="collapse"
+                            href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            See More
+                        </a>
+                        </p>
+                        <div class="collapse" id="collapseExample">
+                            <h6>Get into the action.</h6>
+                            Speak about the key milestones that you went through. Tell them what you did to turn the
+                            <br>
+                            situation around. Don't go into too much detail though. It should only be about two to three
+                            <br>
+                            sentences, and try to use active verbs, things like “I implemented” or “I persuaded”.
+                            <br>
+                            <br>
+                            <h6> Show the results.</h6>
+                            Let them know how well things turned out, how the problems were solved and what you may <br>
+                            have learned along the way. Try to include a clincher at the end, like dollars saved or
+                            improved <br>
+                            profitability. It drives home that you did a great thing.
+                            <a id="btncollabs" class="btn btn-outline-primary" data-bs-toggle="collapse"
+                                href="#collapseExample" role="button" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                See Less
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="card shadow">
+                    <div class="card-body">
+
+                        <h2>Tipe</h2>
+
+                        <ul>
+                            <li>Have a clear story with a specific challenge.</li>
+                            <li>Describe the negative impact if you hadn’t resolved the issue.</li>
+                            <li>Discuss action steps you took and talk about the positive impact.</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <br>
+                <br>
+                <div class="card shadow">
+                    <div class="card-body">
+
+                        <h4>Did you find this content helpful?</h4>
+                        <button id="btnfeedback" type="button" class="btn btn-outline-secondary">
+                            Send feedback.
+                        </button>
+                    </div>
+
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="card">
+              <div class="card-header bg-transparent">
+                <h4>Visit More Linkedin Products</h4>
+              </div>
+              <div class="card-body">
+                  <ul class="nav nav-pills nav-fill">
+                      <li class="nav-item">
+                          <i class="bi bi-youtube"></i>
+                          <p>Learning</p>
+                      </li>
+                      <li class="nav-item">
+                          <i class="bi bi-textarea"></i>
+                          <p>Insights</p>
+                      </li>
+                      <li class="nav-item">
+                          <i class="bi bi-briefcase"></i>
+                          <p>Post a job</p>
+                      </li>
+                      <li class="nav-item">
+                          <i class="bi bi-geo"></i>
+                          <p>Advertise</p>
+                      </li>
+                    </ul>
+                    <ul class="nav nav-pills nav-fill">
+                      <li class="nav-item">
+                          <i class="bi bi-search"></i>
+                          <p>Find Leads</p>
+                      </li>
+                      <li class="nav-item">
+                          <i class="bi bi-people"></i>
+                          <p>Groups</p>
+                      </li>
+                      <li class="nav-item">
+                          <i class="bi bi-info-lg"></i>
+                          <p>Services</p>
+                      </li>
+                      <li class="nav-item">
+                          <i class="bi bi-cash-coin"></i>
+                          <p>Salary</p>
+                      </li>
+                    </ul>     
+              </div>
+            </div>
+            <br>
+            <div class="card">
+              <div class="card-header bg-transparent">
+               <h4>LinkedIn Business Services</h4>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Talent Solutions</h5>
+                <p class="card-text"><small class="text-muted">Find, attract and recruit talent</small></p>
+                <h5>Sales Solutions</h5>
+                <p class="card-text"><small class="text-muted">Find, attract and recruit talent</small></p>
+               <h5>Post a job for free</h5>
+               <p class="card-text"><small class="text-muted">Find, attract and recruit talent</small></p>
+              <h5>Marketing Solutions</h5>
+              <p class="card-text"><small class="text-muted">Find, attract and recruit talent</small></p>
+                  <h5>Learning Solutions</h5>
+                <p class="card-text"><small class="text-muted">Find, attract and recruit talent</small></p>
+                  
+              </div>
+              <div class="card-footer bg-transparent">
+                  <h4>Create a Company Page <i class="bi bi-plus"></i></h4>
+              </div>
+            </div>
+        </div>
+      </div> 
+</body>
+
+</html>

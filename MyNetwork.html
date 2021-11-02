@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="Home.html"><i class="bi bi-linkedin linked"
+                    style="color: rgb(10,102,194);"></i></a>
+            <form class="d-flex">
+                <input class="form-control " type="search" placeholder="Search" aria-label="Search"
+                    style="width: 350px;background-color:rgb(218, 235, 240);">
+            </form>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 m " style="margin-left: 30%;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Home.html">
+                            <div class="tab container-fluid"><i class="bi bi-house-door-fill"></i>
+                                <span>Home</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="MyNetwork.html">
+                            <div class="tab container-fluid"><i class="bi bi-diagram-2-fill"></i>
+                                <span>My Network</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Jops.html">
+                            <div class="tab container-fluid"><i class="bi bi-bag-fill"></i>
+                                <span>Jobs</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Messaging.html">
+                            <div class="tab container-fluid"><i class="bi bi-chat-right-dots-fill"></i>
+                                <span>Messaging</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Notification.html">
+                            <div class="tab container-fluid"><i class="bi bi-bell-fill"></i>
+                                <span>Notification</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-top: 1%;">
+                        <a class="nav-link  container-fluid" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="/Images/img.jpg">
+                            <p>Me</p>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown"
+                            style="width: 320px;">
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <div style="display: flex;" class="gap-3"><img src="/Images/img.jpg"
+                                            style="width: 60px; height: 70px;"><span>
+                                            <h4>Khalil Emad</h4>
+                                            <h5>Flutter Developer</h5>
+                                        </span></div>
+                                </a>
+                                <div class="d-grid gap-2 view">
+                                    <button class="btn " type="button"><span
+                                            style="font-weight: bold; color: blue;">View Profile</span></button>
+                                </div>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <h4>Account</h4>
+                                <a class="dropdown-item" href="#">Setting & Privacy</a>
+                                <a class="dropdown-item" href="#">Help</a>
+                                <a class="dropdown-item" href="#">Language</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <h4>Manage</h4>
+                                <a class="dropdown-item" href="#">Posts & Activity</a>
+                                <a class="dropdown-item" href="#">Job Posying Account</a>
+                                <a class="dropdown-item" href="#">Language</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="signIn.html">Sign Out</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown" style="margin-left: 2%;">
+                        <button class="btn btn-link text-muted text-decoration-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+
+                            <i class="bi bi-safe-fill"></i>
+                            <p>Work</p>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="containerr">
+        <div class="row row1">
+            <div class="col-3 coll ">
+                <div class="row row2">
+                    <p id="Mange">Mange my network</p>
+                    <div class="connect1">
+                        <div class="con"><i class="fas fa-user-friends"></i><a href="Connections.html">Conection</a></div>
+                        <div class="num">10</div>
+                    </div>
+                    <div class="connect1">
+                        <div class="con"><i class="far fa-address-book"></i> <a href="Contacts.html">Contacts </a></div>
+                        <div class="num">13</div>
+                    </div>
+                    <div class="connect1">
+                        <div class="con"><i class="fas fa-user-check"></i> <a href="PeopleToFollow.html"> People i Follow</a>
+                        </div>
+                        <div class="num">12</div>
+                    </div>
+                    <div class="connect1">
+                        <div class="con"><i class="fas fa-users"></i><a href="Groups.html">Groups</a></div>
+                        <div class="num">0</div>
+                    </div>
+                    <div class="connect1">
+                        <div class="con"><i class="far fa-calendar-check"></i><a href="Events.html">Events</a></div>
+                        <div class="num">0</div>
+                    </div>
+                    <div class="connect1">
+                        <div class="con"><i class="far fa-file-alt"></i><a href="Pages.html">Pages</a></div>
+                        <div class="num">2</div>
+                    </div>
+                    <div class="connect1">
+                        <div class="con"><i class="far fa-newspaper"></i><a href="NewSletters.html">Newsletters</a></div>
+                        <div class="num"></div>
+                    </div>
+                    <div class="connect1">
+                        <div class="con"><i class="fas fa-hashtag"></i><a href="#">Hashtags</a></div>
+                        <div class="num"></div>
+                    </div>
+                    <hr>
+                    <div class="man">
+                        <img class="img1"
+                            src="Images/4.jpg"
+                            alt="Advertise on LinkedIn" border="0">
+                        <hr>
+                        <div class="grow"><a href="#">Grow Your Net Work</a></div>
+                        <hr>
+                    </div>
+                </div>
+
+
+                <div class="row row5 text-center  align-items-end">
+                    <small class="col  mb-3 pt-3 ">
+                        <span class="badge bg-dark">LinkedIn</span>
+                        <span class="footer-copyright">© 2021</span>
+                        <a href="" class="ps-3">About</a>
+                        <a href="" class="ps-3">Accessibilty</a>
+                        <a href="" class="ps-3">User Agreement</a>
+                        <a href="" class="ps-3">Privcy Policy</a>
+                        <a href="" class="ps-3">Cookie Policy</a>
+                        <a href="" class="ps-3">Copyright Polict</a>
+                        <a href="" class="ps-3">Brand Policy</a>
+                        <a href="" class="ps-3">Guest Controls</a>
+                        <a href="" class="ps-3">Community Guidelines</a>
+
+                        <div class="btn-group dropup">
+                            <button type="button"
+                                class="btn btn-link text-muted text-decoration-none ps-3 dropdown-toggle"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Language
+                            </button>
+                            <ul class="dropdown-menu">
+                                <!-- <li><span class="dropdown-item-text">Dropdown item text</span></li> -->
+                                <li><a class="dropdown-item" href="#">Arabic</a></li>
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">French</a></li>
+                            </ul>
+                        </div>
+                    </small>
+                </div>
+
+            </div>
+
+
+
+
+
+            <div class="col-9  coll2  ">
+                <div class="row row_pending">
+
+                    <div>
+                        <div class="div1">No pending invitations</div>
+                        <div class="div2">Manage</div>
+                    </div>
+                </div>
+                <div class="row personal">
+                    <div class="close2">
+                        <div class="close "><i class="fas fa-times"></i></div>
+                    </div>
+                    <div style="clear: both;"></div>
+                    <div>
+                        <div class="books"><i class="fas fa-book"></i> </div>
+                        <div class="boo">Add personal contacts</div>
+                    </div>
+                    <span class="we"> We’ll periodically import and store your contacts to help you and others connect.
+                        You choose who to connect to and who to invite.
+                    </span>
+                    <span class="learn"><a href="#">learn me</a></span>
+
+                    <div class="input-group mb-3 email">
+                        <input type="email" class="form-control" placeholder="@example.com"
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                    </div>
+                    <button class="continue">Continue</button>
+                    <div class="more"><a href="#">More options</a></div>
+                </div>
+
+                <div class="row main222">
+                    <div class="row row-see">
+                        <div class="industry">Industry leaders in Egypt you may know</div>
+                        <div class="see">See All</div>
+                    </div>
+
+
+                    <div class="row row-pic">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card card1 ">
+                                <div class="img11"><img src="img/christopher-campbell-rDEOVtE7vOs-unsplash (1).jpg">
+                                </div>
+                                <div class="card-body">
+                                    <div class="name"><a href="#">Sara john</a></div>
+                                    <p class="card_text">Node/Nest js & Angular developer</p>
+                                    <button class="continue2">Continue</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card card1 ">
+                                <div class="img11"><img src="img/christopher-campbell-rDEOVtE7vOs-unsplash (1).jpg">
+                                </div>
+                                <div class="card-body">
+                                    <div class="name"><a href="#">Sara john</a></div>
+                                    <p class="card_text">Node/Nest js & Angular developer</p>
+                                    <button class="continue2">Continue</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card card1 ">
+                                <div class="img33"><img src="img/derick-mckinney-eyFbjKWlR2g-unsplash.jpg"></div>
+                                <div class="card-body">
+                                    <div class="name"><a href="#">derick-ckinney</a></div>
+                                    <p class="card_text">Senior User Experience Designer</p>
+                                    <button class="continue2">Continue</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card card1 ">
+                                <div class="img44"><img src="img/marcelo-matarazzo-WKxWQg7tZoU-unsplash.jpg"></div>
+                                <div class="card-body">
+                                    <div class="name"><a href="#">marcelo mata</a></div>
+                                    <p class="card_text">Front End && Web developer ........</p>
+                                    <button class="continue2">Continue</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 
+row2----------------- -->
+
+                    <div class="row row-pic">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card card1">
+                                <div class="img55"><img src="img/jeffrey-keenan-pUhxoSapPFA-unsplash.jpg"></div>
+                                <div class="card-body">
+                                    <div class="name"><a href="#">jeffrey keen</a></div>
+                                    <p class="card_text">Senior Dotnet Developer at Innovix</p>
+                                    <button class="continue2">Continue</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card card1">
+                                <div class="img66"><img src="img/jonas-svidras-jDDheOd-8XI-unsplash.jpg"></div>
+                                <div class="card-body">
+                                    <div class="name"><a href="#">jonas svidras</a></div>
+                                    <p class="card_text">.Net full stack ....... web developer</p>
+                                    <button class="continue2">Continue</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card card1">
+                                <div class="img77"><img src="img/jonas-kakaroto-KIPqvvTOC1s-unsplash.jpg"></div>
+                                <div class="card-body">
+                                    <div class="name"><a href="#">derick ckinney</a></div>
+                                    <p class="card_text">Front end developer ~~( Angular )~~</p>
+                                    <button class="continue2">Continue</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card card1">
+                                <div class="img88"><img src="img/milan-csizmadia-rCa8as1KkU0-unsplash.jpg"></div>
+                                <div class="card-body">
+                                    <div class="name"><a href="#">Sara john</a></div>
+                                    <p class="card_text">Node/Nest js & Angular developer</p>
+                                    <button class="continue2">Continue</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br><br>
+
+                    <!-- row4-------------------------------- -->
+
+
+                    <div class="main2222">
+                        <div class="row row-see">
+                            <div class="industry">People who are in Egypt also follow these pages</div>
+                            <div class="see">See All</div>
+                        </div>
+
+                        <div class="row row-pic">
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="card card2">
+                                    <div class="img22"><img src="img/mitchell-luo-jz4ca36oJ_M-unsplash.jpg"></div>
+                                    <div class="card-body">
+                                        <div class="name"><a href="#">Google</a></div>
+                                        <p class="card_text">Google an american company...</p>
+                                        <button class="continue2">Follow</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="card card2">
+                                    <div class="img11"><img src="img/philippe-oursel-ZopoSyTT_GM-unsplash.jpg"></div>
+                                    <div class="card-body">
+                                        <div class="name"><a href="#">BMW</a></div>
+                                        <p class="card_text">Welcome to the officicial BMW page</p>
+                                        <button class="continue2">Follow</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="card card2">
+                                    <div class="img33"><img src="img/tobias-roder-x60YFtdOsGU-unsplash.jpg"></div>
+                                    <div class="card-body">
+                                        <div class="name"><a href="#">Apple</a></div>
+                                        <p class="card_text">electronics//computeer//.........services</p>
+                                        <button class="continue2">Follow</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="card card2">
+                                    <div class="img44"><img src="img/denise-jans-MiPvGAr5vJs-unsplash.jpg"></div>
+                                    <div class="card-body">
+                                        <div class="name"><a href="#">MacDonald’s</a></div>
+                                        <p class="card_text">Fast food restaurant All kinds.....</p>
+                                        <button class="continue2">Followe</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- row 6---------------------- -->
+
+
+
+
+
+                        <div class="row row-pic">
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="card card2">
+                                    <div class="img22"><img src="img/viktor-forgacs-L2DXgWfUQ1E-unsplash.jpg"></div>
+                                    <div class="card-body">
+                                        <div class="name"><a href="#">Boss</a></div>
+                                        <p class="card_text">لThe official online shop for peopls</p>
+                                        <button class="continue2">Follow</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="card card2">
+                                    <div class="img11"><img src="img/matt-chris-pua-W73LdE-t8DY-unsplash.jpg"></div>
+                                    <div class="card-body">
+                                        <div class="name"><a href="#">KitKat</a></div>
+                                        <p class="card_text">Have a Break Have ~~~~~// a Kitkat</p>
+                                        <button class="continue2">Follow</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="card card2">
+                                    <div class="img33"><img src="img/chuttersnap-XNqLljW6XU8-unsplash.jpg"></div>
+                                    <div class="card-body">
+                                        <div class="name"><a href="#">Adidas</a></div>
+                                        <p class="card_text">Buy Adidas Shoes online for men</p>
+                                        <button class="continue2">Follow</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="card card2">
+                                    <div class="img44"><img src="img/nat-nguyen-sz8zEXl10I0-unsplash.jpg"></div>
+                                    <div class="card-body">
+                                        <div class="name"><a href="#">KFC</a></div>
+                                        <p class="card_text">Largest chain of restaurants in world</p>
+                                        <button class="continue2">Follow</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="card">
+              <div class="card-header bg-transparent">
+                <h4>Visit More Linkedin Products</h4>
+              </div>
+              <div class="card-body">
+                  <ul class="nav nav-pills nav-fill">
+                      <li class="nav-item">
+                          <i class="bi bi-youtube"></i>
+                          <p>Learning</p>
+                      </li>
+                      <li class="nav-item">
+                          <i class="bi bi-textarea"></i>
+                          <p>Insights</p>
+                      </li>
+                      <li class="nav-item">
+                          <i class="bi bi-briefcase"></i>
+                          <p>Post a job</p>
+                      </li>
+                      <li class="nav-item">
+                          <i class="bi bi-geo"></i>
+                          <p>Advertise</p>
+                      </li>
+                    </ul>
+                    <ul class="nav nav-pills nav-fill">
+                      <li class="nav-item">
+                          <i class="bi bi-search"></i>
+                          <p>Find Leads</p>
+                      </li>
+                      <li class="nav-item">
+                          <i class="bi bi-people"></i>
+                          <p>Groups</p>
+                      </li>
+                      <li class="nav-item">
+                          <i class="bi bi-info-lg"></i>
+                          <p>Services</p>
+                      </li>
+                      <li class="nav-item">
+                          <i class="bi bi-cash-coin"></i>
+                          <p>Salary</p>
+                      </li>
+                    </ul>     
+              </div>
+            </div>
+            <br>
+            <div class="card">
+              <div class="card-header bg-transparent">
+               <h4>LinkedIn Business Services</h4>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Talent Solutions</h5>
+                <p class="card-text"><small class="text-muted">Find, attract and recruit talent</small></p>
+                <h5>Sales Solutions</h5>
+                <p class="card-text"><small class="text-muted">Find, attract and recruit talent</small></p>
+               <h5>Post a job for free</h5>
+               <p class="card-text"><small class="text-muted">Find, attract and recruit talent</small></p>
+              <h5>Marketing Solutions</h5>
+              <p class="card-text"><small class="text-muted">Find, attract and recruit talent</small></p>
+                  <h5>Learning Solutions</h5>
+                <p class="card-text"><small class="text-muted">Find, attract and recruit talent</small></p>
+                  
+              </div>
+              <div class="card-footer bg-transparent">
+                  <h4>Create a Company Page <i class="bi bi-plus"></i></h4>
+              </div>
+            </div>
+        </div>
+      </div> 
+</body>
+
+</html>

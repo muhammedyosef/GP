@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed | Linkedin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+<style>
+
+       body{
+        background-color:#f3f2ef;
+        font-family: 'Roboto', sans-serif;
+    }
+    .containerr{
+        width: 85%;
+        margin-left:7%;
+        margin-right: 5%;
+    }
+    .row2{
+        border: 1px solid rgba(79, 134, 156, 0.664);
+        border-radius:2px;
+        background-color:#ffffff ; 
+        box-shadow: 1px 1px 8px 3px #b3aeae;
+        display: flex;
+        justify-content: space-between;
+    }
+    .box{
+        display: flex;
+        flex-direction: row;
+        font-size: 1.2em;
+        color: grey;
+        width: 48%;
+    }
+    .row1{
+        margin-top: 3%;
+        margin-bottom: 7%;
+    }
+    .row2 a{
+        text-decoration: none;
+        color: rgb(148, 147, 147);
+    }
+    .row2{
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 1%;
+        height: 120%;
+        display: flex;
+        justify-content: space-between;
+     
+    }
+
+    .follow{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .follow a{
+        color: rgb(53, 187, 53);
+        text-decoration: underline;
+    }
+    .row2 button{
+        color: white;
+        background-color:rgb(130, 130, 203) ;
+        border-radius: 45px;
+       font-size: 1.2em;
+        border: 0px;
+      
+    }
+    .row2 button:hover{
+        background-color: rgb(83, 83, 228);
+    }
+    .row4{
+        border: 1px solid rgb(199, 197, 188);
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: gray;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    }
+    .box2{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.2em;
+    }
+    .row5{
+   
+   
+    display: flex;
+    flex-direction: row;
+    }
+    .boxx{
+        border: 1px solid rgb(199, 197, 188);
+        padding-top: 1%;
+        border: 1px solid rgb(199, 197, 188);
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: gray;
+    margin-bottom: 2%;
+    }
+    .boxx img{
+        border-radius: 50%;
+    height: 63px;
+    width: 71px;
+    }
+    .Name{
+        color: black;
+    margin-top: 11%;
+    margin-bottom: 1%;
+    }
+    .job{
+        font-size: .8em;
+    }
+    .post{
+        font-size: .6em;
+    }
+    .follow{
+        text-align: center;
+        font-size: 1em;
+        color: black;
+    }
+    .follow:hover{
+        background-color: rgb(247, 247, 247);
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="Home.html"><i class="bi bi-linkedin linked"  style="color: rgb(10,102,194);"></i></a>
+            <form class="d-flex">
+                <input class="form-control " type="search" placeholder="Search" aria-label="Search"
+                    style="width: 350px;background-color:rgb(218, 235, 240);">
+            </form>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 m " style="margin-left: 30%;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Home.html">
+                            <div class="tab container-fluid"><i class="bi bi-house-door-fill"></i>
+                                <span>Home</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link" href="MyNetwork.html" >
+                            <div class="tab container-fluid"><i class="bi bi-diagram-2-fill"></i>
+                                <span>My Network</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Jops.html">
+                            <div class="tab container-fluid"><i class="bi bi-bag-fill"></i>
+                                <span>Jobs</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Messaging.html">
+                            <div class="tab container-fluid"><i class="bi bi-chat-right-dots-fill"></i>
+                                <span>Messaging</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Notification.html">
+                            <div class="tab container-fluid"><i class="bi bi-bell-fill"></i>
+                                <span>Notification</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-top: 1%;">
+                        <a class="nav-link  container-fluid" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="/Images/img.jpg">
+                            <p>Me</p>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown"
+                            style="width: 320px;">
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <div style="display: flex;" class="gap-3"><img src="/Images/img.jpg"
+                                            style="width: 60px; height: 70px;"><span>
+                                            <h4>Khalil Emad</h4>
+                                            <h5>Flutter Developer</h5>
+                                        </span></div>
+                                </a>
+                                <div class="d-grid gap-2 view">
+                                    <button class="btn " type="button"><span
+                                            style="font-weight: bold; color: blue;">View Profile</span></button>
+                                </div>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <h4>Account</h4>
+                                <a class="dropdown-item" href="#">Setting & Privacy</a>
+                                <a class="dropdown-item" href="#">Help</a>
+                                <a class="dropdown-item" href="#">Language</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <h4>Manage</h4>
+                                <a class="dropdown-item" href="#">Posts & Activity</a>
+                                <a class="dropdown-item" href="#">Job Posying Account</a>
+                                <a class="dropdown-item" href="#">Language</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="signIn.html">Sign Out</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown" style="margin-left: 2%;">
+                        <button class="btn btn-link text-muted text-decoration-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+
+                            <i class="bi bi-safe-fill"></i>
+                            <p>Work</p>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+  <div class="containerr">
+  <div class="row row1 ">
+  <div class="col-12">
+<div class="row2">
+<div class="box">
+   <div><a href="#">Follow fresh perspectives</a></div>
+   <div class="follow"><a href="#">2 Following</a></div>
+   <div><a href="#" >2 Followers</a></div>
+</div>
+<div><button>Done</button></div>
+</div>
+  </div>
+  </div>
+
+
+  <div><p>Unfollow to stop seeing their posts in your feed. Don’t worry, they won’t be notified.</p></div>
+  <div class="row row4">
+      <div col-12>
+      <div class="box2">
+      <div>Filter by <b>Companies</b></div>
+      <div><i class="fas fa-times"></i></div>
+      </div>
+
+  </div>
+  </div> 
+  <div class="row row5">
+  <div class="boxx col-lg-2 col-sm-6 col-xm-6">
+    <img src="img/WhatsApp Image 2021-10-17 at 5.20.35 AM.jpeg">
+    <p class="Name">Telecommunication-Nti</p>
+    <p class="job">Information technology and services</p>
+    <hr>
+    <p class="post">3.4k followers</p>
+    <hr>
+    <p class="follow"><i class="fas fa-check"></i> Follow</p>
+  </div>
+  <div class="boxx col-lg-2 col-sm-6 col-xm-6">
+    <img src="img/WhatsApp Image 2021-10-17 at 5.20.45 AM.jpeg">
+    <p class="Name">Free courses & books</p>
+    <p class="job">For educational purposes only as courses & books in many fileds</p>
+    <hr>
+    <p class="post">19 posts this week</p>
+    <hr>
+    <p class="follow"><i class="fas fa-check"></i> Follow</p>
+  </div>
+
+
+
+
+  </div>
+ 
+  </div> 
+
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="card">
+          <div class="card-header bg-transparent">
+            <h4>Visit More Linkedin Products</h4>
+          </div>
+          <div class="card-body">
+              <ul class="nav nav-pills nav-fill">
+                  <li class="nav-item">
+                      <i class="bi bi-youtube"></i>
+                      <p>Learning</p>
+                  </li>
+                  <li class="nav-item">
+                      <i class="bi bi-textarea"></i>
+                      <p>Insights</p>
+                  </li>
+                  <li class="nav-item">
+                      <i class="bi bi-briefcase"></i>
+                      <p>Post a job</p>
+                  </li>
+                  <li class="nav-item">
+                      <i class="bi bi-geo"></i>
+                      <p>Advertise</p>
+                  </li>
+                </ul>
+                <ul class="nav nav-pills nav-fill">
+                  <li class="nav-item">
+                      <i class="bi bi-search"></i>
+                      <p>Find Leads</p>
+                  </li>
+                  <li class="nav-item">
+                      <i class="bi bi-people"></i>
+                      <p>Groups</p>
+                  </li>
+                  <li class="nav-item">
+                      <i class="bi bi-info-lg"></i>
+                      <p>Services</p>
+                  </li>
+                  <li class="nav-item">
+                      <i class="bi bi-cash-coin"></i>
+                      <p>Salary</p>
+                  </li>
+                </ul>     
+          </div>
+        </div>
+        <br>
+        <div class="card">
+          <div class="card-header bg-transparent">
+           <h4>LinkedIn Business Services</h4>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Talent Solutions</h5>
+            <p class="card-text"><small class="text-muted">Find, attract and recruit talent</small></p>
+            <h5>Sales Solutions</h5>
+            <p class="card-text"><small class="text-muted">Find, attract and recruit talent</small></p>
+           <h5>Post a job for free</h5>
+           <p class="card-text"><small class="text-muted">Find, attract and recruit talent</small></p>
+          <h5>Marketing Solutions</h5>
+          <p class="card-text"><small class="text-muted">Find, attract and recruit talent</small></p>
+              <h5>Learning Solutions</h5>
+            <p class="card-text"><small class="text-muted">Find, attract and recruit talent</small></p>
+              
+          </div>
+          <div class="card-footer bg-transparent">
+              <h4>Create a Company Page <i class="bi bi-plus"></i></h4>
+          </div>
+        </div>
+    </div>
+  </div> 
+</body>
+</html>

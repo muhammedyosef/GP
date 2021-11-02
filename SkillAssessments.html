@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="jopsSASS.css" />
+  <link rel="stylesheet" href="Home.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkillAssessment</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="Home.html"><i class="bi bi-linkedin linked" style="color: rgb(10,102,194);"></i></a>
+      <form class="d-flex">
+        <input class="form-control " type="search" placeholder="Search" aria-label="Search"
+          style="width: 350px;background-color:rgb(218, 235, 240);">
+      </form>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 m " style="margin-left: 30%;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Home.html">
+              <div class="tab container-fluid"><i class="bi bi-house-door-fill"></i>
+                <span>Home</span>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="MyNetwork.html">
+              <div class="tab container-fluid"><i class="bi bi-diagram-2-fill"></i>
+                <span>My Network</span>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <div class="tab container-fluid"><i class="bi bi-bag-fill"></i>
+                <span>Jobs</span>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <div class="tab container-fluid"><i class="bi bi-chat-right-dots-fill"></i>
+                <span>Messaging</span>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Notification.html">
+              <div class="tab container-fluid"><i class="bi bi-bell-fill"></i>
+                <span>Notification</span>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item dropdown" style="margin-top: 1%;">
+            <a class="nav-link  container-fluid" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <img src="/Images/img.jpg">
+              <p>Me</p>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown" style="width: 320px;">
+              <li>
+                <a class="dropdown-item" href="#">
+                  <div style="display: flex;" class="gap-3"><img src="/Images/img.jpg"
+                      style="width: 60px; height: 70px;"><span>
+                      <h4>Khalil Emad</h4>
+                      <h5>Flutter Developer</h5>
+                    </span></div>
+                </a>
+                <div class="d-grid gap-2 view">
+                  <button class="btn " type="button"><span style="font-weight: bold; color: blue;">View
+                      Profile</span></button>
+                </div>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li>
+                <h4>Account</h4>
+                <a class="dropdown-item" href="#">Setting & Privacy</a>
+                <a class="dropdown-item" href="#">Help</a>
+                <a class="dropdown-item" href="#">Language</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li>
+                <h4>Manage</h4>
+                <a class="dropdown-item" href="#">Posts & Activity</a>
+                <a class="dropdown-item" href="#">Job Posying Account</a>
+                <a class="dropdown-item" href="#">Language</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Sign Out</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown" style="margin-left: 2%;">
+            <button class="btn btn-link text-muted text-decoration-none" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+
+              <i class="bi bi-safe-fill"></i>
+              <p>Work</p>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="model container">
+    <div class="row mb-3">
+      <div class="col-8">
+        <nav id="navbar-example2" class="navbar navbar-light px-3">
+          <h3>
+            <a class="navbar-brand" href="#">Skill Assessments <i id="biac" class="bi bi-x-lg"></i></a>
+          </h3>
+        </nav>
+        <hr />
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
+          tabindex="0">
+          <p></p>
+          <h6>
+            Check your skill level. Answer 15 multiple choice <br />
+            questions, score in the top 30%, and earn a skill <br />
+            badge.
+            <a href="">Learn more</a>
+            <img id="imgright" src="2.jpg" />
+          </h6>
+        </div>
+        <br />
+        <br />
+        <hr />
+
+        <div calss="fomrs d-flex">
+          <form class="d-flex">
+            <button id="btnAll" type="button" class="btn btn-outline-dark">
+              All
+            </button>
+            <button id="btnRec" type="button" class="btn btn-success">
+              Recommanded
+            </button>
+            <button id="btnRec" type="button" class="btn btn-outline-dark">
+              Industry Knowledge
+            </button>
+            <button id="btnRec" type="button" class="btn btn-outline-dark">
+              Tools & Technology
+            </button>
+            <i class="bi bi-search"></i>
+            <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search" />
+          </form>
+
+          <br />
+          <div class="text" style="max-width: 540px">
+            <div class="row">
+              <div class="col-4">
+                <img src="micro.png" class="img-fluid rounded-start" />
+              </div>
+              <div class="col-8">
+                <h5 class="card-title">Microsoft Excel</h5>
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+                <p class="card-text">
+                  <small class="text-muted">15M pepole will Take This </small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="text" style="max-width: 540px">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="Android.png" class="img-fluid rounded-start" />
+              </div>
+              <div class="col-md-8">
+                <h5 class="card-title">Android</h5>
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+                <p class="card-text">
+                  <small class="text-muted">15M pepole will Take This </small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="text" style="max-width: 540px">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="Ajial.png" class="img-fluid rounded-start" />
+              </div>
+              <div class="col-md-8">
+                <h5 class="card-title">Agile</h5>
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+                <p class="card-text">
+                  <small class="text-muted">15M pepole will Take This </small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="text" style="max-width: 540px">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="java.png" class="img-fluid rounded-start" />
+              </div>
+              <div class="col-md-8">
+                <h5 class="card-title">C + +</h5>
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+                <p class="card-text">
+                  <small class="text-muted">15M pepole will Take This </small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="text" style="max-width: 540px">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="js.png" class="img-fluid rounded-start" />
+              </div>
+              <div class="col-md-8">
+                <h5 class="card-title">Java Script</h5>
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+                <p class="card-text">
+                  <small class="text-muted">15M pepole will Take This </small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="text" style="max-width: 540px">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="Android.png" class="img-fluid rounded-start" />
+              </div>
+              <div class="col-md-8">
+                <h5 class="card-title">C (Programming langage)</h5>
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+                <p class="card-text">
+                  <small class="text-muted">15M pepole will Take This </small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <button id="Done" type="button" class="btn btn-primary">
+            Done
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

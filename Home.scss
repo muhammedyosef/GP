@@ -1,0 +1,119 @@
+@mixin DesignTabs {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:1200px) {
+    .right{
+        width: 31%;
+    }
+    .middle{
+        width: 49%;
+    }
+    .left{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:995px) {
+    .right{
+        display: none;
+    }
+    .middle{
+        width: 70%;
+    }
+    .left{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .right{
+        display: none;
+    }
+    .middle{
+        width: 100%;
+    }
+    .left{
+        display: none;
+    }
+}
+
+body {
+    background-color: rgb(240, 239, 239);
+}
+
+nav {
+    height: 80px;
+    .linked {
+        color: blue;
+        font-size: 50px;
+    }
+    i {
+        font-size: 29px;
+    }
+    .tab {
+        @include DesignTabs;
+    }
+    .tabs {
+        float: right;
+    }
+    img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .view {
+        border-radius: 20px;
+        border: 2px solid blue;
+    }
+}
+
+@mixin imaged ($height, $width) {
+    border-radius: 50px;
+    height: $height;
+    width: $width;
+}
+
+.left {
+    img {
+        @include imaged(90px, 90px);
+    }
+    h6 {
+        color: gray;
+    }
+    .top {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.middle {
+    img {
+        @include imaged(65px, 70px);
+    }
+    .post {
+        display: flex;
+    }
+    .comment{
+        img{
+            @include imaged(45px,50px )
+        }
+    }
+}
+
+.right{
+    img{
+        @include imaged(65px,65px)
+    }
+}
+.card{
+    border: 1px solid rgb(212, 210, 210);
+    border-radius: 20px;
+    box-shadow: gray;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+}
